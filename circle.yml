@@ -5,9 +5,9 @@ machine:
 dependencies:
   override:
     - docker info
-    - docker build -t cloudesire/java:8 ./8
-    - docker build -t cloudesire/java:7 ./7
-    - docker build -t cloudesire/java:6 ./6
+    - docker build -t cloudesire/java:8 ./openjdk-headless/8
+    - docker build -t cloudesire/java:7 ./openjdk-headless/7
+    - docker build -t cloudesire/java:6 ./openjdk-headless/6
 
 test:
   override:

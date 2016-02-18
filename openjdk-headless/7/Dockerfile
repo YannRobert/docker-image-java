@@ -1,4 +1,4 @@
-FROM debian:jessie
+FROM debian:jessie-backports
 MAINTAINER ClouDesire <dev@cloudesire.com>
 
 RUN apt-get update && \
