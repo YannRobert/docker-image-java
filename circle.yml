@@ -11,6 +11,7 @@ dependencies:
     - docker build -t cloudesire/java:oracle-9 ./oracle/9
     - docker build -t cloudesire/java:oracle-8 ./oracle/8
     - docker build -t cloudesire/java:oracle-7 ./oracle/7
+    - docker build -t cloudesire/java:oracle-6 ./oracle/6
 
 test:
   override:
@@ -20,3 +21,4 @@ test:
     - docker run cloudesire/java:oracle-9 java -version
     - docker run cloudesire/java:oracle-8 java -version
     - docker run cloudesire/java:oracle-7 java -version
+    - docker run cloudesire/java:oracle-6 java -version
