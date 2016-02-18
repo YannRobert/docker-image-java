@@ -14,6 +14,8 @@ Docker images with java in two different flavours:
 
 [![](https://badge.imagelayers.io/cloudesire/java:8.svg)](https://imagelayers.io/?images=cloudesire/java:8 'Get your own badge on imagelayers.io') cloudesire/java:8
 
+[![](https://badge.imagelayers.io/cloudesire/java:oracle-6.svg)](https://imagelayers.io/?images=cloudesire/java:oracle-6 'Get your own badge on imagelayers.io') cloudesire/java:oracle-6
+
 [![](https://badge.imagelayers.io/cloudesire/java:oracle-7.svg)](https://imagelayers.io/?images=cloudesire/java:oracle-7 'Get your own badge on imagelayers.io') cloudesire/java:oracle-7
 
 [![](https://badge.imagelayers.io/cloudesire/java:oracle-8.svg)](https://imagelayers.io/?images=cloudesire/java:oracle-8 'Get your own badge on imagelayers.io') cloudesire/java:oracle-8
