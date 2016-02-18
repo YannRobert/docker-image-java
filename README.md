@@ -3,12 +3,19 @@ docker-java
 
 [![Circle CI](https://circleci.com/gh/ClouDesire/docker-java.svg?style=svg)](https://circleci.com/gh/ClouDesire/docker-java)
 
-Docker image based on Debian with OpenJDK headless.
+Docker images with java in two different flavours:
 
-```
-cloudesire/java:8        Java 8
+* OpenJDK headless based on Debian
+* Oracle JDK based on Ubuntu
 
-cloudesire/java:7        Java 7
+[![](https://badge.imagelayers.io/cloudesire/java:6.svg)](https://imagelayers.io/?images=cloudesire/java:6 'Get your own badge on imagelayers.io') cloudesire/java:6
 
-cloudesire/java:6        Java 6
-```
+[![](https://badge.imagelayers.io/cloudesire/java:7.svg)](https://imagelayers.io/?images=cloudesire/java:7 'Get your own badge on imagelayers.io') cloudesire/java:7
+
+[![](https://badge.imagelayers.io/cloudesire/java:8.svg)](https://imagelayers.io/?images=cloudesire/java:8 'Get your own badge on imagelayers.io') cloudesire/java:8
+
+[![](https://badge.imagelayers.io/cloudesire/java:oracle-7.svg)](https://imagelayers.io/?images=cloudesire/java:oracle-7 'Get your own badge on imagelayers.io') cloudesire/java:oracle-7
+
+[![](https://badge.imagelayers.io/cloudesire/java:oracle-8.svg)](https://imagelayers.io/?images=cloudesire/java:oracle-8 'Get your own badge on imagelayers.io') cloudesire/java:oracle-8
+
+[![](https://badge.imagelayers.io/cloudesire/java:oracle-9.svg)](https://imagelayers.io/?images=cloudesire/java:oracle-9 'Get your own badge on imagelayers.io') cloudesire/java:oracle-9
