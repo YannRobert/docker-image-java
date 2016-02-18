@@ -8,9 +8,15 @@ dependencies:
     - docker build -t cloudesire/java:8 ./openjdk-headless/8
     - docker build -t cloudesire/java:7 ./openjdk-headless/7
     - docker build -t cloudesire/java:6 ./openjdk-headless/6
+    - docker build -t cloudesire/java:oracle-9 ./oracle/9
+    - docker build -t cloudesire/java:oracle-8 ./oracle/8
+    - docker build -t cloudesire/java:oracle-7 ./oracle/7
 
 test:
   override:
     - docker run cloudesire/java:8 java -version
     - docker run cloudesire/java:7 java -version
     - docker run cloudesire/java:6 java -version
+    - docker run cloudesire/java:oracle-9 java -version
+    - docker run cloudesire/java:oracle-8 java -version
+    - docker run cloudesire/java:oracle-7 java -version
