@@ -1,9 +1,8 @@
 FROM ubuntu:trusty
-MAINTAINER Feng Honglin <hfeng@tutum.co>
+MAINTAINER ClouDesire <dev@cloudesire.com>
 
-# Install Oracle Java 6
-ENV JAVA_VER 6
-ENV JAVA_HOME /usr/lib/jvm/java-6-oracle
+ENV JAVA_VER 8
+ENV JAVA_HOME /usr/lib/jvm/java-8-oracle
 
 RUN echo 'deb http://ppa.launchpad.net/webupd8team/java/ubuntu trusty main' >> /etc/apt/sources.list && \
     echo 'deb-src http://ppa.launchpad.net/webupd8team/java/ubuntu trusty main' >> /etc/apt/sources.list && \
@@ -14,4 +13,3 @@ RUN echo 'deb http://ppa.launchpad.net/webupd8team/java/ubuntu trusty main' >> /
     apt-get clean && \
     rm -rf /var/lib/apt/lists && \
     rm -rf /var/cache/oracle-jdk${JAVA_VER}-installer
-
